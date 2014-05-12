@@ -108,6 +108,7 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_UNION := \
     device.te \
     app.te \
+    vold.te \
     file_contexts
 
 # Wifi
